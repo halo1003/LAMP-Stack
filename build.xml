@@ -3,7 +3,7 @@
  <!-- By default, we assume all tools to be on the $PATH -->
  <!--<property name="pdepend" value="pdepend"/>-->
  <!--<property name="phpcpd"  value="phpcpd"/>-->
- <!--<property name="phpcs"   value="phpcs"/>-->
+ <!--<property name="phpcs.xml"   value="phpcs.xml"/>-->
  <!--<property name="phpdox"  value="phpdox"/>-->
  <!--<property name="phploc"  value="phploc"/>-->
  <!--<property name="phpmd"   value="phpmd"/>-->
@@ -21,7 +21,7 @@
  <!-- Use this when the tools are managed by Composer in ${basedir}/vendor/bin
  <property name="pdepend" value="${basedir}/vendor/bin/pdepend"/>
  <property name="phpcpd"  value="${basedir}/vendor/bin/phpcpd"/>
- <property name="phpcs"   value="${basedir}/vendor/bin/phpcs"/>
+ <property name="phpcs.xml"   value="${basedir}/vendor/bin/phpcs.xml"/>
  <property name="phpdox"  value="${basedir}/vendor/bin/phpdox"/>
  <property name="phploc"  value="${basedir}/vendor/bin/phploc"/>
  <property name="phpmd"   value="${basedir}/vendor/bin/phpmd"/>
